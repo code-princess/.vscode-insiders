@@ -1,0 +1,26 @@
+.body{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 50px solid rgb(94, 51, 27);
+    background-color: rgb(150, 115, 75);
+}
+.nav-bar{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  
+}
+.detail{
+    width: 80%;
+    color: rgb(214, 216, 191);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.head{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}

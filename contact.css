@@ -1,0 +1,12 @@
+.contact-body{
+    background-color: rgb(150, 115, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    margin-bottom: 30px;
+}
+div,[input]{
+    padding: 10px;
+}
